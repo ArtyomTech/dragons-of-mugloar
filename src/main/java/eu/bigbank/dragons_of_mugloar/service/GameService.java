@@ -54,7 +54,7 @@ public class GameService {
         if (adventureResult.getScore() >= gameSettingsConfig.getGoal()) {
             ReputationDto reputation = client.investigateReputation(gameId);
             sseService.send("Reputation result: " + reputation);
-            sseService.send("Congratulations! Completed adventure with score: " + score);
+            sseService.send("Congratulations! Completed adventure with score: " + adventureResult.getScore());
         } else {
             sseService.send("Adventure failed with score: " + adventureResult.getScore());
         }

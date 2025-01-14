@@ -4,7 +4,7 @@ spring:
 
 game:
   settings:
-    goal: 9999
+    goal: 1000
     turn-slack: 2
   api:
     base-url: "https://dragonsofmugloar.com/api/v2"
