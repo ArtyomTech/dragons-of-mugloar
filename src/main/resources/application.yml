@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "Dragons of Mugloar"
+
+game:
+  settings:
+    goal: 9999
+    turn-slack: 2
+  api:
+    base-url: "https://dragonsofmugloar.com/api/v2"
